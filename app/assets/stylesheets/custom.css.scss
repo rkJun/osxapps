@@ -1,0 +1,12 @@
+@import 'bootstrap/variables';
+
+.help-inline {
+  color: #ff0000;
+  font-style: italic;
+}
+
+.alert-error {
+  color: #7d0505 !important;
+  background-color: rgba(123, 34, 34, 0.16) !important;
+  border: 1px solid #7d0505 !important;
+}

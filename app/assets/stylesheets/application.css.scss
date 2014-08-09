@@ -1,4 +1,4 @@
-‘$light-orange: #ff8c00;
+$light-orange: #ff8c00;
 $navbar-default-color: $light-orange;
 $navbar-default-bg: #312312;
 $navbar-default-link-color: gray;
@@ -7,5 +7,8 @@ $navbar-default-link-hover-color: white;
 $navbar-default-link-hover-bg: black;
 
 @import 'bootstrap';
+@import 'posts';
 
-body { padding-top: 60px; }’
+body { padding-top: 60px; }
+
+@import 'comments';
